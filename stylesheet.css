@@ -216,6 +216,7 @@ footer {
   height: 60px;
   background-color: #ec715f;
   text-align: center;
+  line-height: 60px;
 }
 
 .footer-text {
@@ -224,7 +225,7 @@ footer {
 }
 
 @media screen and (max-width:767px) {
-
+  /* header */
   .header-box {
     display: none;
   }
@@ -281,4 +282,188 @@ footer {
     bottom: 8px;
   }
 
+  /* main-visual */
+  .main-visual {
+    width: 100%;
+    height: 650px;
+    background-image: url(img/code.png);
+    background-position: center;
+    color: #fafafa;
+  }
+
+  .main-visual-text {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .main-visual-text1 {
+    font-size: 40px;
+  }
+
+  .main-visual-text2 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+
+  /* portfolio */
+  .portfolio {
+    width: 100%;
+    background: #eceff1;
+    color: #000000;
+    text-align: center;
+  }
+  
+  .section-text {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .section-title {
+    padding-top: 90px;
+    padding-bottom: 8px;
+    font-size: 32px;
+  }
+  
+  .title-border {
+    width: 70px;
+    height: 30px;
+    border-top: solid 3px #ec715f;
+    margin: 0 auto;
+  }
+
+  .portfolio-images {
+    height: 860px;
+  }
+
+  .portfolio-image {
+    width: 300px;
+    height: 770px;
+    margin: 0 auto 90px auto;
+    background-image: url(img/websuku.png),
+       url(img/webcamp.png), url(img/webcamp-mother.png);
+    background-position: top, center, bottom;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: 300px 250px, 300px 250px, 300px 250px;
+  }
+
+  /* feature */
+  .feature-details {
+    width: 90%;
+    margin: 0 auto;
+    display: inline;
+  }
+  
+  .feature-details-box {
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  i {
+    font-size: 60px;
+  }
+
+  .feature-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+
+  .feature-detail-text {
+    margin-bottom: 30px;
+  }
+
+  .last-feature-detail-text {
+    margin-bottom: 90px;
+  }
+
+  /* profile */
+  .profile {
+    background-color: #eceff1;
+    text-align: center;
+  }
+  
+  .profile-container {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
+  
+  .profile-details {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    display: inline;
+  }
+
+  
+  .my-icon {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto 20px auto;
+    border-radius: 50%;
+  }
+  
+  .profile-text {
+    width: 100%;
+  }
+  
+  .name-title, .skill-title {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .skill-title {
+    margin-top: 20px;
+  }
+
+  .skill-text {
+    margin-bottom: 90px;
+  }
+
+  /* contact */
+  .contact-details {
+    width: 90%;
+    margin: 30px auto 90px auto;
+    display: inline;
+  }
+
+  .info, .sns {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .info-box, .sns-box {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .mail-title, .tel-title, .sns-title {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .mail-add, .tel-num {
+    margin-bottom: 20px;
+  }
+  
+  .sns-icon {
+    font-size: 50px;
+    margin-right: 20px;
+  }
+
+  .sns-icon:last-child {
+    margin-right: 0;
+  }
+
+  .sns-box {
+    margin-bottom: 90px;
+  }
+
+  footer {
+    height: 60px;
+    font-size: 16px;
+    line-height: 60px;
+  }
 }
