@@ -141,3 +141,68 @@ i {
   margin-bottom: 10px;
   font-size: 20px;
 }
+
+.profile {
+  background-color: #eceff1;
+}
+
+.profile-container {
+  width: 1024px;
+  margin: 0 auto;
+  padding-bottom: 90px;
+}
+
+.profile-details {
+  display: flex;
+  justify-content: center;
+}
+
+.my-icon {
+  width: 250px;
+  height: 250px;
+  margin-left: 131px;
+  margin-right: 131px;
+  border-radius: 50%;
+}
+
+.profile-text {
+  width: 512px;
+}
+
+.name-title, .skill-title {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.skill-title {
+  margin-top: 20px;
+}
+
+.contact-details {
+  width: 800px;
+  margin: 30px auto 90px auto;
+  display: flex;
+}
+
+.info, .sns {
+  width: 400px;
+  text-align: center;
+}
+
+.info-box, .sns-box {
+  text-align: left;
+  display: inline-block;
+}
+
+.mail-title, .tel-title, .sns-title {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.mail-add {
+  margin-bottom: 20px;
+}
+
+.sns-icon {
+  font-size: 50px;
+  margin-right: 20px;
+}
