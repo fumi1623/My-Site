@@ -68,12 +68,13 @@ header {
   text-align: center;
 }
 
-.portfolio-text {
+.section-text {
   width: 920px;
   margin: 0 auto;
+  text-align: center;
 }
 
-.portfolio-title {
+.section-title {
   padding-top: 90px;
   padding-bottom: 8px;
   font-size: 32px;
@@ -86,7 +87,7 @@ header {
   margin: 0 auto;
 }
 
-.portfolio-detail {
+.section-detail {
   font-size: 16px;
   margin-bottom: 30px;
 }
@@ -109,4 +110,34 @@ header {
     no-repeat, no-repeat;
   background-size: 300px 250px, 300px 250px, 300px 250px, 300px 250px,
     300px 250px, 300px 250px;
+}
+
+.feature {
+  width: 100%;
+  color: #000000;
+}
+
+.feature-details {
+  width: 980px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.feature-details-box {
+  width: 320px;
+  height: auto;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 90px;
+  text-align: center;
+}
+
+i {
+  font-size: 60px;
+}
+
+.feature-title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
 }
